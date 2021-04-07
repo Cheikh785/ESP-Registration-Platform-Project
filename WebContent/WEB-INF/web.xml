@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemalocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	version="3.0">
+	<servlet>
+		<servlet-name>Servlet_projet</servlet-name>
+		<servlet-class>com.octest.servlets.Servlet_projet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>Servlet_upload</servlet-name>
+		<servlet-class>com.octest.servlets.Servlet_upload</servlet-class>
+		<init-param>
+			<param-name>chemin</param-name>
+			<param-value>/homme/cheikh/upload</param-value>
+		</init-param>
+		<multipart-config>
+   			<location>/home/cheikh/tmpdir</location> <!-- repertoire de skotage temporaire des fichier uploadés -->
+   			<max-file-size>10485760</max-file-size> <!-- 10 Mo -->
+   			<max-request-size>52428800</max-request-size> <!-- 5 * 10 Mo -->
+   			<file-size-threshold>1048576</file-size-threshold> <!-- 1 Mo -->
+   		</multipart-config>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>Servlet_fiche_etudiant</servlet-name>
+		<servlet-class>com.octest.servlets.Servlet_fiche_etudiant</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>Servlet_inscription_medecin</servlet-name>
+		<servlet-class>com.octest.servlets.Servlet_inscription_medecin</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>Servlet_medecin_cherche_etudiant</servlet-name>
+		<servlet-class>com.octest.servlets.Servlet_medecin_cherche_etudiant</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>Servlet_visite_medicale_etudiant</servlet-name>
+		<servlet-class>com.octest.servlets.Servlet_visite_medicale_etudiant</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>Servlet_inscription_comptable</servlet-name>
+		<servlet-class>com.octest.servlets.Servlet_inscription_comptable</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>Servlet_comptable_cherche_etudiant</servlet-name>
+		<servlet-class>com.octest.servlets.Servlet_comptable_cherche_etudiant</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>Servlet_paiement_etudiant</servlet-name>
+		<servlet-class>com.octest.servlets.Servlet_paiement_etudiant</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>Servlet_inscription_scolarite</servlet-name>
+		<servlet-class>com.octest.servlets.Servlet_inscription_scolarite</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>Servlet_ajouter_medecin</servlet-name>
+		<servlet-class>com.octest.servlets.Servlet_ajouter_medecin</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>Servlet_ajouter_comptable</servlet-name>
+		<servlet-class>com.octest.servlets.Servlet_ajouter_comptable</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>Servlet_ajouter_etudiant</servlet-name>
+		<servlet-class>com.octest.servlets.Servlet_ajouter_etudiant</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>Servlet_verifier_fiche</servlet-name>
+		<servlet-class>com.octest.servlets.Servlet_verifier_fiche</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>Servlet_certificat_inscription</servlet-name>
+		<servlet-class>com.octest.servlets.Servlet_certificat_inscription</servlet-class>
+	</servlet>
+	
+	
+	
+
+	<servlet-mapping>
+		<servlet-name>Servlet_projet</servlet-name>
+		<url-pattern>/accueil</url-pattern>	
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>Servlet_upload</servlet-name>
+		<url-pattern>/upload</url-pattern>	
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>Servlet_fiche_etudiant</servlet-name>
+		<url-pattern>/fiche_etudiant</url-pattern>	
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>Servlet_inscription_medecin</servlet-name>
+		<url-pattern>/fiche_inscription_medecin</url-pattern>	
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>Servlet_medecin_cherche_etudiant</servlet-name>
+		<url-pattern>/medecin_cherche_etudiant</url-pattern>	
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>Servlet_visite_medicale_etudiant</servlet-name>
+		<url-pattern>/visite_medicale_etudiant</url-pattern>	
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>Servlet_inscription_comptable</servlet-name>
+		<url-pattern>/inscription_comptable</url-pattern>	
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Servlet_comptable_cherche_etudiant</servlet-name>
+		<url-pattern>/comptable_cherche_etudiant</url-pattern>	
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>Servlet_paiement_etudiant</servlet-name>
+		<url-pattern>/paiement_etudiant</url-pattern>	
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>Servlet_inscription_scolarite</servlet-name>
+		<url-pattern>/inscription_scolarite</url-pattern>	
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>Servlet_ajouter_medecin</servlet-name>
+		<url-pattern>/ajouter_medecin</url-pattern>	
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>Servlet_ajouter_comptable</servlet-name>
+		<url-pattern>/ajouter_comptable</url-pattern>	
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>Servlet_ajouter_etudiant</servlet-name>
+		<url-pattern>/ajouter_etudiant</url-pattern>	
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>Servlet_verifier_fiche</servlet-name>
+		<url-pattern>/verifier_fiche</url-pattern>	
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>Servlet_certificat_inscription</servlet-name>
+		<url-pattern>/certificat_inscription</url-pattern>	
+	</servlet-mapping>
+	
+</web-app>
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,149 @@
+@charset "UTF-8";
+body{
+	padding: 0;
+	margin: 0;
+}
+
+.box1{
+	position: absolute;
+	top: 66%;
+	left: 20%;
+	color: black;
+	transform: translate(-50%, -50%); 
+	width: 520px;
+	padding: 40px;
+	background: rgba(255,255,255, .4); 
+	box-sizing: border-box;
+	box-shadow: 0 15px 25px rgba(0,0,0, .5);
+	border-radius: 10px;
+	font-size: 20px;
+}
+.box2{
+	position: absolute;
+	top: 63%;
+	left: 80%;
+	color: black;
+	transform: translate(-50%, -50%); 
+	width: 440px;
+	padding: 20px;
+	background: rgba(255,255,255, .4); 
+	box-sizing: border-box;
+	box-shadow: 0 15px 25px rgba(0,0,0, .5);
+	border-radius: 10px;
+	font-size: 20px;
+}
+.box2 h2{
+	color: #000;
+	position: relative;
+	left: 25%;
+	font-style: italic;
+	font-size: 130%;
+}
+.box3{
+	position: absolute;
+	top: 17%;
+	left: 50%;
+	color: black;
+	transform: translate(-50%, -50%); 
+	height: 30%;
+	width: 740px;
+	padding: 20px;
+	background: rgba(255,255,255, .3); 
+	border : 1px solid blue;
+	box-sizing: border-box;
+	box-shadow: 0 15px 25px rgba(0,0,0, .5);
+	border-radius: 10px;
+	font-size: 20px;
+}
+
+#bienvenue{
+	position: relative;
+	left: 1%;
+	top: -20px;
+	font-style: italic;
+	font-size: 40px;
+	color: #0000ff
+}
+
+.box2 .input1{
+	font-size: 20px;
+	color: #000;
+	border:none;
+	border-bottom: 1px solid #000;
+	outline: none;
+	background: transparent;
+}
+.box2 label{
+	padding: 10px 0;
+	font-size: 18px;
+	color: #000;	
+	pointer-events: none;
+	transition: 0.5s;			
+}
+#temperature{
+	color: #f66;
+	font-size: 25px;
+	border: none;
+	border-bottom: 1px solid black;
+	background: transparent;
+	width: 5%;
+}
+#poids{
+	color: #f66;
+	font-size: 25px;
+	border: none;
+	border-bottom: 1px solid black;
+	background: transparent;
+	width: 7%;
+}
+#taille{
+	color: #f66;
+	font-size: 25px;
+	border: none;
+	border-bottom: 1px solid black;
+	background: transparent;
+	width: 8%;
+}
+#valider{
+	position: absolute;
+	top: 80%;
+	left: 86%;
+	font-weight: bold;
+	font-size: 115%;
+	background: transparent;
+	border: 2px solid black;
+	color: black;
+}
+#valider:hover{
+	background-color: rgba(0, 0, 0, .5);
+	border: none;
+	font-size: 120%
+}
+.rechercher{
+	position: relative;
+	margin-top: 5%;
+	left: 35%;
+	font-size: 150%;	
+	color: black;
+	background-color: #8844ff;
+	border: none;
+}
+.rechercher:hover{
+	box-shadow: 0 5px 5px rgba(150,123,255, .5);
+	background-color: #6622aa;
+}
+#heart{
+	position: absolute;
+	top: 96%;
+	left: 86%;
+	font-size: 20px;
+	font-style: italic;
+}
+
+
+
+
+
+
+
+

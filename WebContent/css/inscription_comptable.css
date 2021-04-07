@@ -1,0 +1,106 @@
+@charset "UTF-8";
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+
+.input-field{
+	color: white;
+	font-size: 30px;
+}
+.box{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 500px;
+	padding: 40px;
+	background: rgba(0,0,0, .7); 
+	box-sizing: border-box;
+	box-shadow: 0 15px 25px rgba(0,0,0, .5);
+	border-radius: 10px;
+}
+h4{
+	position: absolute;
+	margin: 0;
+	color: #0000ff;
+}
+.box h2{
+	margin: 0 0 30px;
+	padding: 0;
+	color: white;
+	text-align:center;
+}
+#header{
+	color: #03a9f4;;
+	position: relative;
+}
+label{
+	font-size: 20px;
+}
+#prenom_comptable1{
+	font-size: 20px;
+}
+#nom_comptable1{
+	font-size: 20px;
+}
+#login_comptable1{
+	font-size: 20px;
+}
+#password_comptable1{
+	font-size: 20px;
+}
+#prenom_comptable{
+	font-size: 20px;
+	color: white;
+}
+#nom_comptable{
+	font-size: 20px;
+	color: white;
+}
+#login_comptable{
+	font-size: 20px;
+	color: white;
+}
+#password_comptable{
+	font-size: 20px;
+	color: white;
+}
+ 
+.incorect{
+	color: #f00;
+	font-style: italic;
+	font-size:20px;
+	position: relative;
+	left: 32%;
+}
+#valider{
+	background-color: #03a9f4;
+	position: relative;
+	left: 10%;
+	font-size: 22px;
+	height: 100%;
+	color: black;
+}
+#valider:hover{
+	box-shadow: 0 5px 5px rgba(0,123,255, .5);
+	background-color: #007bff;
+}
+
+#heart{
+	position: absolute;
+	top: 96%;
+	left: 86%;
+	font-size: 20px;
+	font-style: italic;
+	color: #fff;
+}	
+		
+		
+		
+		
+		
+		
+		

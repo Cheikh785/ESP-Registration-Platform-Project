@@ -1,0 +1,166 @@
+@charset "UTF-8";
+
+body{
+    padding: 0;
+    margin: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+form{
+    border: 3px solid #9f3;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 1%;
+    margin-bottom: 5%;
+	padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+h2{
+    font-weight: bold;
+    clear : both;
+}
+.universite{
+	float: right;
+	clear: both;
+	position: absolute;
+	top: 11%;
+	left: 67%;
+}
+
+img{
+    height: 100px;
+    position: relative;
+    left: 45%;
+}
+h1{
+    position: relative;
+    left: 5%;
+    font-weight: bold;
+}
+legend{
+    background-color: #9f3;
+    padding: 0.5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-weight: bold;
+    border-radius: 10px;
+}
+input{
+    height: 20px;
+    border-radius: 5px;
+}
+.input_sexe{
+    width: 6%;
+}
+.activite_salarie{
+    float: left;
+}
+.status_etudiant{
+    float: right;
+}
+.nombre_enfant{
+    width: 5%;
+}
+.bourse{
+    float: left;
+    clear: both;
+}
+.exonere_à{
+    width: 4%;
+}
+.montant_bourse{
+    width: 12%;
+}
+.annee_diplome{
+    width: 50%;
+}
+.annee_mention{
+    width: 60%;
+}
+.td_input{
+    width: 20%;
+}
+.td_input_diplome{
+    width: 90%;
+}
+.soussigne{
+    background-color: #9f3;
+    padding: 1%;
+    font-size: 130%;
+    font-weight: bold;
+    border-radius: 25px;
+}
+#valider{
+	position: relative;
+	left: 25%;
+	font-size: 30px;
+	height: 100%;
+	background-color: #0099ff;
+}
+#valider:hover{
+	box-shadow: 0 10px 10px rgba(0,123,255, .5);
+	background-color: #007bff;
+	font-size: 31px;
+}
+
+#reset{
+	position: relative;
+	left: 40%;
+	font-size: 30px;
+	height: 100%;
+	background-color: #fd3545;
+}
+#reset:hover{
+	box-shadow: 0 10px 10px rgba(250,123,125, .5);
+	font-size: 31px;
+	background-color: #dc3545;
+}
+
+input[type="checkbox"] {
+  position: relative;
+  top: 0;
+  width: 40px;
+  height: 40px;
+  -webkit-appearance: none;
+  outline: none;
+  transition: .5s;
+}
+
+
+input[type="checkbox"]:before {
+  content: '';
+  position: absolute;
+  top: 10;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 4px solid #262626;
+  box-sizing: border-box;
+  transition: .5s;
+}
+
+input:checked[type="checkbox"]:before {
+  border-left: none;
+  border-top: none;
+  width: 20px;
+  border-color: #0f0;
+  transform: rotate(45deg) translate(5px, -10px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

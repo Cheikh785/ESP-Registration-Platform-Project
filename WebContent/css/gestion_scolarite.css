@@ -1,0 +1,386 @@
+@charset "UTF-8";
+body{
+	padding: 0;
+	margin: 0;
+}
+
+.box1{
+	position: absolute;
+	top: 50%;
+	left: 18%;
+	color: black;
+	transform: translate(-50%, -50%); 
+	width: 500px;
+	padding: 30px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	background: rgba(255,255,255, .6); 
+	box-sizing: border-box;
+	box-shadow: 0 15px 25px rgba(0,0,0, .5);
+	border-radius: 10px;
+	font-size: 20px;
+}
+
+.box2{
+	position: absolute;
+	top: 13%;
+	left: 86%;
+	color: black;
+	transform: translate(-50%, -50%); 
+	width: 15%;
+	padding: 3px;
+	background: transparent;
+	box-sizing: border-box;
+	border-radius: 20px;
+	font-size: 20px;
+} 
+.envoie{
+	position: relative;
+	font-size: 110%;	
+	color: #555;
+	background-color: #09a;
+	border: none;
+	border-radius: 20px;
+	border: 1px solid #444;
+}
+.box4{
+	position: absolute;
+	top: 23%;
+	left: 86%;
+	color: black;
+	transform: translate(-50%, -50%); 
+	width: 14%;
+	background: transparent;
+	box-sizing: border-box;
+	border-radius: 20px;
+	font-size: 20px;
+} 
+.certificat{
+	position: relative;
+	font-size: 105%;	
+	width: 150%;
+	color: #111;
+	background-color: #09a;
+	border: none;
+	border-radius: 20px;
+	border: 1px solid #444;
+}
+.box3{
+	position: absolute;
+	top: 55%;
+	left: 88%;
+	color: black;
+	transform: translate(-50%, -50%); 
+	width: 16%;
+	height: 35%;
+	padding-left: 1%;
+	padding-bottom: 1%;
+	background: rgba(255,255,255, .4); 
+	box-sizing: border-box;
+	border-radius: 20px;
+	font-size: 20px;
+	border: 1px solid #59f;
+}
+.box3 h6{
+	color: #f00;
+	font-size: 110%;
+	position: relative;
+	left: 5%;
+}
+.box3 #login_etudiant1{
+	color: black;
+	font-size: 20px;
+}
+.box3 #login_etudiant2{
+	color: black;
+	font-size: 20px;
+}
+.box3 #input_etudiant1{
+	color: black;
+	font-size: 20px;
+	width: 70%;
+	border-color: black;
+}
+.box3 #input_etudiant2{
+	color: black;
+	font-size: 20px;
+	width: 70%;
+	border-color: black;
+}
+.box3 #valider_etudiant{
+	background-color: #0099ff;
+	position: absolute;
+	top: 80%;
+	left: 30%;
+	font-size: 100%;
+	border-radius: 10px;
+}
+.box3 #valider_etudiant:hover{
+	box-shadow: 0 5px 5px rgba(0,123,255, .5);
+	background-color: #007bff;
+}
+
+.box5{
+	position: absolute;
+	top: 50%;
+	left: 46%;
+	color: black;
+	transform: translate(-50%, -50%); 
+	width: 20%;
+	padding-left: 1%;
+	padding-bottom: 1%;
+	background: rgba(255,255,255, .4); 
+	box-sizing: border-box;
+	border-radius: 20px;
+	font-size: 20px;
+	border: 1px solid #59f;
+}
+.box5 h6{
+	color: #f00;
+	font-size: 110%;
+	position: relative;
+	left: 15%;
+}
+.box5 #login_medecin1{
+	color: black;
+	font-size: 20px;
+}
+.box5 #login_medecin2{
+	color: black;
+	font-size: 20px;
+}
+.box5 #login_medecin3{
+	color: black;
+	font-size: 20px;
+}
+.box5 #login_medecin4{
+	color: black;
+	font-size: 20px;
+}
+.box5 #login_medecin5{
+	color: black;
+	font-size: 20px;
+}
+.box5 #login_medecin6{
+	color: black;
+	font-size: 20px;
+}
+.box5 #login_medecin7{
+	color: black;
+	font-size: 20px;
+}
+.box5 #login_medecin8{
+	color: black;
+	font-size: 20px;
+}
+.box5 #input_medecin1{
+	color: black;
+	font-size: 20px;
+	width: 70%;
+	border-color: black;
+}
+.box5 #input_medecin2{
+	color: black;
+	font-size: 20px;
+	width: 70%;
+	border-color: black;
+}
+.box5 #input_medecin3{
+	color: black;
+	font-size: 20px;
+	width: 70%;
+	border-color: black;
+}
+.box5 #input_medecin4{
+	color: black;
+	font-size: 20px;
+	width: 70%;
+	border-color: black;
+}
+.box5 #input_medecin5{
+	color: black;
+	font-size: 20px;
+	width: 70%;
+	border-color: black;
+}
+.box5 #input_medecin6{
+	color: black;
+	font-size: 20px;
+	width: 70%;
+	border-color: black;
+}
+.box5 #input_medecin7{
+	color: black;
+	font-size: 20px;
+	width: 70%;
+	border-color: black;
+}
+.box5 #input_medecin8{
+	color: black;
+	font-size: 20px;
+	width: 70%;
+	border-color: black;
+}
+.box5 #valider_medecin{
+	background-color: #0099ff;
+	position: relative;
+	left: 30%;
+	font-size: 100%;
+	height: 100%;
+	border-radius: 10px;
+}
+.box5 #valider_medecin:hover{
+	box-shadow: 0 5px 5px rgba(0,123,255, .5);
+	background-color: #007bff;
+}
+
+.box6{
+	position: absolute;
+	top: 50%;
+	left: 68%;
+	color: black;
+	transform: translate(-50%, -50%); 
+	width: 20%;
+	padding-left: 1%;
+	padding-bottom: 1%;
+	background: rgba(255,255,255, .4); 
+	box-sizing: border-box;
+	border-radius: 20px;
+	font-size: 20px;
+	border: 1px solid #59f;
+}
+.box6 h6{
+	color: #f00;
+	font-size: 110%;
+	position: relative;
+	left: 0;
+}
+.box6 #login_comptable1{
+	color: black;
+	font-size: 20px;
+}
+.box6 #login_comptable2{
+	color: black;
+	font-size: 20px;
+}
+.box6 #login_comptable3{
+	color: black;
+	font-size: 20px;
+}
+.box6 #login_comptable4{
+	color: black;
+	font-size: 20px;
+}
+.box6 #login_comptable5{
+	color: black;
+	font-size: 20px;
+}
+.box6 #login_comptable6{
+	color: black;
+	font-size: 20px;
+}
+.box6 #login_comptable7{
+	color: black;
+	font-size: 20px;
+}
+.box6 #login_comptable8{
+	color: black;
+	font-size: 20px;
+}
+.box6 #input_comptable1{
+	color: black;
+	font-size: 20px;
+	width: 70%;
+	border-color: black;
+}
+.box6 #input_comptable2{
+	color: black;
+	font-size: 20px;
+	width: 70%;
+	border-color: black;
+}
+.box6 #input_comptable3{
+	color: black;
+	font-size: 20px;
+	width: 70%;
+	border-color: black;
+}
+.box6 #input_comptable4{
+	color: black;
+	font-size: 20px;
+	width: 70%;
+	border-color: black;
+}
+.box6 #input_comptable5{
+	color: black;
+	font-size: 20px;
+	width: 70%;
+	border-color: black;
+}
+.box6 #input_comptable6{
+	color: black;
+	font-size: 20px;
+	width: 70%;
+	border-color: black;
+}
+.box6 #input_comptable7{
+	color: black;
+	font-size: 20px;
+	width: 70%;
+	border-color: black;
+}
+.box6 #input_comptable8{
+	color: black;
+	font-size: 20px;
+	width: 70%;
+	border-color: black;
+}
+.box6 #valider_comptable{
+	background-color: #09f;
+	position: relative;
+	left: 30%;
+	font-size: 100%;
+	height: 100%;
+	border-radius: 10px;
+}
+.box6 #valider_comptable:hover{
+	box-shadow: 0 5px 5px rgba(0,123,255, .5);
+	background-color: #007bff;
+}
+
+
+
+#bienvenue{
+	position: relative;
+	left: 1%;
+	top: -20px;
+	font-style: italic;
+	font-size: 40px;
+	color: #00f;
+}
+#heart{
+	position: absolute;
+	top: 96%;
+	left: 86%;
+	font-size: 20px;
+	font-style: italic;
+	color: white;
+}
+
+
+
+
+
+*
+
+
+
+
+
+
+
+
+
+
+
+

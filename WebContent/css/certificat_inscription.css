@@ -1,0 +1,86 @@
+@charset "UTF-8";
+.body{
+	padding: 0; 
+	margin: 0;
+}
+
+.ucad{
+	height: 100px;
+	position: absolute;
+	left: 0%;
+	top: 0%;
+}
+
+.box{
+	border: 1px solid black;
+	width: 55%;
+	padding-left: 5%;
+	padding-rigth: 5%;
+	padding-top: 1%;
+	position: relative;
+	left: 25%;
+	margin-top: 3%;
+	height: 90%;
+}
+.box .universite{
+	position: relative;
+	left: 5%;
+	font-weight: bold;
+	color: #59b;
+} 
+.box .ecole{
+	position: relative;
+	left: 5%;
+	font-weight: bold;
+} 
+.box .certificat{
+	font-family: sans-serif;
+	position: relative;
+	left: 18%;
+} 
+.login{
+	font-weight: bold;
+}
+.annee{
+	font-weight: bold;
+}
+.cachet{
+	height: 120px;
+	width: 150px;
+	position: relative;
+	left: 52%;
+	top: 0%;
+}
+.numero{
+	position: absolute;
+	left: 2px;
+	font-size: 150%;
+}
+.une_fois{
+	font-size: 120%;
+	position: relative;
+	left: 25%;
+	color: #59d;
+}
+.imprimer{
+	position: relative;
+	left: 55%;
+}
+.retour{
+	position: relative;
+	left: 35%;
+}
+#heart{
+	position: absolute;
+	top: 96%;
+	left: 86%;
+	font-size: 20px;
+	font-style: italic;
+}
+
+
+
+
+
+
+

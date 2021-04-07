@@ -1,0 +1,73 @@
+@charset "UTF-8";
+body{
+	background-image: url("/images/esp1.jpg");
+}
+
+.box{
+	position: absolute;
+	top: 53%;
+	left: 55%;
+	color: white;
+	transform: translate(-50%, -50%);
+	height: 8*70%;
+	width: 620px;
+	padding: 40px;
+	background: rgba(0,0,0, .9); 
+	box-sizing: border-box;
+	box-shadow: 0 15px 25px rgba(0,0,0, .5);
+	border-radius: 10px;
+	font-size: 17px;
+}
+#text-parcourir{
+	color:white;
+}
+#form{
+	border: 2px solid red;
+	padding: 15px;
+	font-size: 16px;
+}
+#label{
+	font-size: 20px;
+}
+
+#bienvenue{
+	position: relative;
+	left: 30%;
+	top: -20px;
+	font-style: italic;
+	font-size: 40px;
+	color: #007bff
+}
+#parcourir{
+	font-size: 16px;
+	padding: 0;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin: 0;
+	color: black;
+	background-color: #dc3545;
+}
+#envoyer{
+	position: relative;
+	left: 40%;
+	font-size: 20px;
+	height: 100%;
+}
+#envoyer:hover{
+	box-shadow: 0 5px 5px rgba(0,123,255, .5);
+	background-color: #57bff;
+	font-size: 20.5px;
+}
+#heart{
+	position: absolute;
+	top: 96%;
+	left: 86%;
+	font-size: 20px;
+	font-style: italic;
+	color: white;
+}
+
+
+
+
+
